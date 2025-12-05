@@ -6,7 +6,7 @@
 
 ### Bot WhatsApp Multifuncional com +60 Comandos
 
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green.svg)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20+-green.svg)](https://nodejs.org/)
 [![Baileys](https://img.shields.io/badge/Baileys-Latest-blue.svg)](https://github.com/WhiskeySockets/Baileys)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Desenvolvido por](https://img.shields.io/badge/Desenvolvido%20por-Ninja%20Devs-orange.svg)](https://github.com/NinjaDevs)
@@ -44,7 +44,7 @@ pkg update && pkg upgrade -y
 pkg install git nodejs -y
 
 # Clonar repositório
-git clone https://github.com/SEU_USUARIO/Boruto-Uzumaki-Bot.git
+git clone https://github.com/Ninja28032024/Boruto-Uzumaki-Bot.git
 
 # Entrar no diretório
 cd Boruto-Uzumaki-Bot
@@ -56,31 +56,31 @@ npm start
 ### 💻 Windows (PowerShell)
 
 ```powershell
-# Instalar Node.js primeiro: https://nodejs.org/
+# Instalar Node.js 20+ primeiro: https://nodejs.org/
 
 # Clonar repositório
-git clone https://github.com/SEU_USUARIO/Boruto-Uzumaki-Bot.git
+git clone https://github.com/Ninja28032024/Boruto-Uzumaki-Bot.git
 
 # Entrar no diretório
 cd Boruto-Uzumaki-Bot
 
 # Iniciar o bot
-npm start
+node boruto.js
 ```
 
 ### 🖥️ Windows (Prompt de Comandos)
 
 ```cmd
-REM Instalar Node.js primeiro: https://nodejs.org/
+REM Instalar Node.js 20+ primeiro: https://nodejs.org/
 
 REM Clonar repositório
-git clone https://github.com/SEU_USUARIO/Boruto-Uzumaki-Bot.git
+git clone https://github.com/Ninja28032024/Boruto-Uzumaki-Bot.git
 
 REM Entrar no diretório
 cd Boruto-Uzumaki-Bot
 
 REM Iniciar o bot
-npm start
+node boruto.js
 ```
 
 ### 🐧 Linux
@@ -93,7 +93,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install git nodejs npm -y
 
 # Clonar repositório
-git clone https://github.com/SEU_USUARIO/Boruto-Uzumaki-Bot.git
+git clone https://github.com/Ninja28032024/Boruto-Uzumaki-Bot.git
 
 # Entrar no diretório
 cd Boruto-Uzumaki-Bot
@@ -342,7 +342,7 @@ Desenvolvido com ❤️ e ⚡ por **Ninja Devs**
 
 Encontrou algum bug ou tem alguma sugestão? 
 
-- 🐛 Abra uma [Issue](https://github.com/SEU_USUARIO/Boruto-Uzumaki-Bot/issues)
+- 🐛 Abra uma [Issue](https://github.com/Ninja28032024/Boruto-Uzumaki-Bot/issues)
 - 💬 Entre em contato pelo WhatsApp
 
 ---
