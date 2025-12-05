@@ -45,6 +45,10 @@ pkg install git nodejs -y
 ```
 
 ```bash
+cd /sdcard/
+```
+
+```bash
 git clone https://github.com/Ninja28032024/Boruto-Uzumaki-Bot.git
 ```
 
