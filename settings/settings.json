@@ -1,0 +1,13 @@
+{
+  "prefix": "!",
+  "botName": "Boruto Bot",
+  "botNumber": "559294768915@s.whatsapp.net",
+  "ownerNumber": "554284421154@s.whatsapp.net",
+  "ownerName": "Mestre Ninja Dev's",
+  "version": "1.0.0",
+  "description": "Bot WhatsApp MultiFuncional com Diveros comandos e sistemas.",
+  "wendelAI": {
+    "ativo": false,
+    "fotoUrl": "https://files.catbox.moe/0ssyj3.jpg"
+  }
+}

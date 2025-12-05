@@ -1,0 +1,13 @@
+{
+  "apiKey": "riki",
+  "apiUrl": "https://api.shizuko.com",
+  "endpoints": {
+    "gpt": "/api/gpt",
+    "image": "/api/image",
+    "audio": "/api/audio",
+    "video": "/api/video"
+  },
+  "timeout": 30000,
+  "maxRetries": 3,
+  "enabled": true
+}
