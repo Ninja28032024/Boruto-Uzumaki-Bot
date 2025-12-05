@@ -160,7 +160,13 @@ npm start
 
 ```bash
 proot-distro login debian
+```
+
+```bash
 cd /sdcard/Boruto-Uzumaki-Bot
+```
+
+```bash
 npm start
 ```
 ---
