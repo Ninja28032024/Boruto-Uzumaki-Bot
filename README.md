@@ -111,6 +111,15 @@ cd /sdcard/Boruto-Uzumaki-Bot
 npm start
 ```
 
+> **Nota:** Sempre que o processo do Termux fechar e o bot parar de funcionar, basta usar os comandos abaixo em ordem para pôr para funcionar novamente, sem precisar instalar tudo de novo:
+
+```bash
+proot-distro login debian
+```
+
+```bash
+cd /sdcard/Boruto-Uzumaki-Bot && npm start
+```
 
 ---
 
