@@ -34,71 +34,85 @@
 
 ## 🚀 Instalação
 
-### 📱 Termux (Android)
+### 📱 INSTALAÇÃO PARA TERMUX
 
 ```bash
-# Atualizar pacotes
 pkg update && pkg upgrade -y
+```
 
-# Instalar dependências
+```bash
 pkg install git nodejs -y
+```
 
-# Clonar repositório
+```bash
 git clone https://github.com/Ninja28032024/Boruto-Uzumaki-Bot.git
+```
 
-# Entrar no diretório
+```bash
 cd Boruto-Uzumaki-Bot
+```
 
-# Iniciar o bot
+```bash
 npm start
 ```
 
-### 💻 Windows (PowerShell)
+---
+
+### 💻 INSTALAÇÃO PARA WINDOWS (PowerShell)
+
+> **Pré-requisito:** Instale o [Node.js 20+](https://nodejs.org/) antes de prosseguir
 
 ```powershell
-# Instalar Node.js 20+ primeiro: https://nodejs.org/
-
-# Clonar repositório
 git clone https://github.com/Ninja28032024/Boruto-Uzumaki-Bot.git
+```
 
-# Entrar no diretório
+```powershell
 cd Boruto-Uzumaki-Bot
+```
 
-# Iniciar o bot
+```powershell
 node boruto.js
 ```
 
-### 🖥️ Windows (Prompt de Comandos)
+---
+
+### 🖥️ INSTALAÇÃO PARA WINDOWS (Prompt de Comandos)
+
+> **Pré-requisito:** Instale o [Node.js 20+](https://nodejs.org/) antes de prosseguir
 
 ```cmd
-REM Instalar Node.js 20+ primeiro: https://nodejs.org/
-
-REM Clonar repositório
 git clone https://github.com/Ninja28032024/Boruto-Uzumaki-Bot.git
+```
 
-REM Entrar no diretório
+```cmd
 cd Boruto-Uzumaki-Bot
+```
 
-REM Iniciar o bot
+```cmd
 node boruto.js
 ```
 
-### 🐧 Linux
+---
+
+### 🐧 INSTALAÇÃO PARA LINUX
 
 ```bash
-# Atualizar sistema
 sudo apt update && sudo apt upgrade -y
+```
 
-# Instalar dependências
+```bash
 sudo apt install git nodejs npm -y
+```
 
-# Clonar repositório
+```bash
 git clone https://github.com/Ninja28032024/Boruto-Uzumaki-Bot.git
+```
 
-# Entrar no diretório
+```bash
 cd Boruto-Uzumaki-Bot
+```
 
-# Iniciar o bot
+```bash
 npm start
 ```
 
