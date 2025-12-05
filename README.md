@@ -60,10 +60,10 @@ cd Boruto-Uzumaki-Bot
 npm start
 ```
 
-> **Nota:** Se deseja usar Node.js 20 especificamente, execute o comando abaixo:
+> **Nota:** Se deseja usar Node.js 20 especificamente no Termux, execute o comando abaixo:
 
 ```bash
-npm install -g n && n 20
+export N_PREFIX=$HOME/.n && npm install -g n && n 20
 ```
 
 ---
