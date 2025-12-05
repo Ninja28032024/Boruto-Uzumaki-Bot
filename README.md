@@ -148,7 +148,6 @@ proot-distro login debian
 curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
 apt install -y nodejs
 ```
-
 ```bash
 cd /sdcard/Boruto-Uzumaki-Bot
 ```
@@ -156,8 +155,14 @@ cd /sdcard/Boruto-Uzumaki-Bot
 ```bash
 npm start
 ```
-```
 
+> **REINICIAR O BOT:** Sempre que o Termux for fechado ou a sessão for encerrada, use os seguintes comandos em ordem para reiniciar o bot:
+
+```bash
+proot-distro login debian
+cd /sdcard/Boruto-Uzumaki-Bot
+npm start
+```
 ---
 
 ### 💻 INSTALAÇÃO PARA WINDOWS (PowerShell)
