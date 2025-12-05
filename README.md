@@ -6,7 +6,7 @@
 
 ### Bot WhatsApp Multifuncional com +60 Comandos
 
-[![Node.js](https://img.shields.io/badge/Node.js-20+-green.svg)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20,21,22-green.svg)](https://nodejs.org/)
 [![Baileys](https://img.shields.io/badge/Baileys-Latest-blue.svg)](https://github.com/WhiskeySockets/Baileys)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Desenvolvido por](https://img.shields.io/badge/Desenvolvido%20por-Ninja%20Devs-orange.svg)](https://github.com/NinjaDevs)
@@ -193,114 +193,140 @@ Edite o arquivo `settings/settings.json` para personalizar:
 
 ## 📚 Comandos
 
-### 👥 Administração (Admins)
+### 🔥 Membros & Jogos
 
-| Comando | Descrição | Uso |
-|---------|-----------|-----|
-| `!ban` | Remover membro do grupo | `!ban @membro` |
-| `!promover` | Promover a admin | `!promover @membro` |
-| `!rebaixar` | Remover admin | `!rebaixar @admin` |
-| `!fechar` | Fechar grupo | `!fechar` |
-| `!abrir` | Abrir grupo | `!abrir` |
-| `!linkgp` | Obter link do grupo | `!linkgp` |
-| `!resetlinkgp` | Resetar link do grupo | `!resetlinkgp` |
-| `!nomegp` | Alterar nome do grupo | `!nomegp Novo Nome` |
-| `!descgp` | Alterar descrição | `!descgp Nova descrição` |
-| `!fotogp` | Alterar foto do grupo | `!fotogp` (com imagem) |
-| `!marcar` | Marcar todos | `!marcar Mensagem` |
-| `!hidetag` | Marcar sem notificar | `!hidetag Mensagem` |
-| `!add` | Adicionar membro | `!add 5511999999999` |
-| `!antilink` | Ativar/desativar antilink | `!antilink 1` (1-5) |
-| `!antifake` | Bloquear DDDs específicos | `!antifake 55` |
-| `!bemvindo` | Ativar mensagem de boas-vindas | `!bemvindo 1` |
-| `!saiu` | Ativar mensagem de saída | `!saiu 1` |
-| `!autosair` | Sair automaticamente | `!autosair 5` (minutos) |
-| `!limpar` | Limpar mensagens | `!limpar 10` |
+| Comando | Descrição |
+|---------|-----------|
+| `!velha @marcar` | Iniciar jogo da velha |
+| `!velha-rank` | Ver ranking do jogo |
+| `!velha-stats` | Ver estatísticas |
+| `!guia-rank` | Guia de ranking |
+| `!cancelar-velha` | Cancelar jogo em andamento |
+| `!toimg` | Converter figurinha em imagem |
+| `!togif` | Converter figurinha em GIF |
+| `!rename pacote \| autor` | Renomear figurinha |
+| `!rvisu` | Revelar visualizações |
 
-### 🎮 Diversão
+### 📚 Menus
 
-| Comando | Descrição | Uso |
-|---------|-----------|-----|
-| `!tictactoe` | Iniciar jogo da velha | `!tictactoe @oponente` |
-| `!rank-tictactoe` | Ver ranking | `!rank-tictactoe` |
-| `!gay` | Medidor de gay | `!gay @membro` |
-| `!feio` | Medidor de feiura | `!feio @membro` |
-| `!gado` | Medidor de gado | `!gado @membro` |
-| `!casal` | Formar casal | `!casal @membro1 @membro2` |
-| `!top5` | Top 5 aleatório | `!top5 gados` |
-| `!chance` | Calcular chance | `!chance de chuva` |
-| `!caracoroa` | Cara ou coroa | `!caracoroa` |
-| `!dado` | Jogar dado | `!dado` |
-| `!slot` | Caça-níquel | `!slot` |
+| Comando | Descrição |
+|---------|-----------|
+| `!menu-adm` | Menu de administração |
+| `!menu-dono` | Menu do dono |
+| `!menu-download` | Menu de downloads |
+
+### ℹ️ Infos & Utilidades
+
+| Comando | Descrição |
+|---------|-----------|
+| `!ping` | Verificar velocidade do bot |
+| `!totalcmds` | Total de comandos disponíveis |
+| `!s` | Criar figurinha |
+| `!f` | Criar figurinha (alternativo) |
+| `!s2` | Criar figurinha (modo 2) |
+| `!f2` | Criar figurinha (modo 2) |
+
+### 🛡️ Administração
+
+| Comando | Descrição |
+|---------|-----------|
+| `!ban @marcar` | Remover membro do grupo |
+| `!promover @marcar` | Promover a admin |
+| `!rebaixar @marcar` | Remover admin |
+| `!delete` | Deletar mensagem (responder) |
+| `!marcar <mensagem>` | Marcar todos |
+| `!alerta <mensagem>` | Enviar alerta |
+| `!abrir-fechar-gp HH:MM HH:MM` | Abrir/fechar grupo por horário |
+| `!statushorario` | Ver status do horário |
+| `!cancelar-abrir-gp` | Cancelar abertura agendada |
+| `!lista-negra 5599...` | Adicionar à lista negra |
+| `!del-listanegra 5599...` | Remover da lista negra |
+| `!modo-parceria` | Ativar/desativar parcerias |
+| `!add-parceria 55119... 20` | Adicionar parceria |
+| `!del-parceria 55119...` | Remover parceria |
+| `!parceria-list` | Listar parcerias |
+| `!guia-parcerias` | Guia de parcerias |
+
+### 🔗 Gerenciamento de Grupo
+
+| Comando | Descrição |
+|---------|-----------|
+| `!link-gp` | Obter link do grupo |
+| `!redefinir-link` | Redefinir link do grupo |
+| `!nomegp <nome novo>` | Alterar nome do grupo |
+| `!salvar-nomegp` | Salvar nome atual |
+| `!restaurar-nomegp` | Restaurar nome anterior |
+| `!msg-tmp <24/7/90/0>` | Definir tempo de mensagens |
+
+### 🛡️ Anti-Link (5 Níveis)
+
+| Comando | Descrição |
+|---------|-----------|
+| `!antilink` | Nível 1 - Apenas apagar |
+| `!antilink2` | Nível 2 - Apagar e banir |
+| `!antilink3` | Nível 3 - Advertências |
+| `!antilink4` | Nível 4 - Aviso por PV |
+| `!antilink5` | Nível 5 - Ban + aviso |
+| `!manual-antilink` | Guia completo |
+
+### 🛡️ Anti-Mídia (3 Níveis Cada)
+
+| Comando | Descrição |
+|---------|-----------|
+| `!antiimg` | Anti-imagem (nível 1) |
+| `!antiimg2` | Anti-imagem (nível 2) |
+| `!antiimg3` | Anti-imagem (nível 3) |
+| `!antivideo` | Anti-vídeo (nível 1) |
+| `!antivideo2` | Anti-vídeo (nível 2) |
+| `!antivideo3` | Anti-vídeo (nível 3) |
+| `!antiaudio` | Anti-áudio (nível 1) |
+| `!antiaudio2` | Anti-áudio (nível 2) |
+| `!antiaudio3` | Anti-áudio (nível 3) |
+| `!antidoc` | Anti-documento (nível 1) |
+| `!antidoc2` | Anti-documento (nível 2) |
+| `!antidoc3` | Anti-documento (nível 3) |
+| `!antifig` | Anti-figurinha (nível 1) |
+| `!antifig2` | Anti-figurinha (nível 2) |
+| `!antifig3` | Anti-figurinha (nível 3) |
+| `!antimsg` | Só áudios permitidos |
 
 ### 🎵 Downloads
 
-| Comando | Descrição | Uso |
-|---------|-----------|-----|
-| `!play` | Baixar música do YouTube | `!play Despacito` |
-| `!play2` | Baixar vídeo do YouTube | `!play2 Despacito` |
-| `!ytmp3` | Download de áudio | `!ytmp3 [link]` |
-| `!ytmp4` | Download de vídeo | `!ytmp4 [link]` |
-| `!tiktok` | Download do TikTok | `!tiktok [link]` |
-| `!instagram` | Download do Instagram | `!instagram [link]` |
-| `!facebook` | Download do Facebook | `!facebook [link]` |
+| Comando | Descrição |
+|---------|-----------|
+| `!play <música>` | Baixar música do YouTube |
+| `!tocar <música>` | Tocar música (alternativo) |
+| `!play2 <URL ou nome>` | Baixar vídeo do YouTube |
 
-### 🛠️ Utilidades
+### 💬 IAs
 
-| Comando | Descrição | Uso |
-|---------|-----------|-----|
-| `!sticker` | Criar figurinha | `!sticker` (com imagem) |
-| `!toimg` | Converter sticker em imagem | `!toimg` (responder sticker) |
-| `!togif` | Converter sticker em GIF | `!togif` (responder sticker) |
-| `!translate` | Traduzir texto | `!translate pt Hello` |
-| `!clima` | Ver clima | `!clima São Paulo` |
-| `!calc` | Calculadora | `!calc 2+2` |
-| `!correios` | Rastrear encomenda | `!correios AA123456789BR` |
-| `!cep` | Consultar CEP | `!cep 01310-100` |
-| `!cpf` | Gerar CPF válido | `!cpf` |
-| `!cnpj` | Gerar CNPJ válido | `!cnpj` |
+| Comando | Descrição |
+|---------|-----------|
+| `!gpt <pergunta>` | Usar ChatGPT |
+| `!wendel-ai` | Ativar/desativar IA Wendel |
 
-### 🤖 IA & Pesquisa
+### 👑 Comandos do Dono
 
-| Comando | Descrição | Uso |
-|---------|-----------|-----|
-| `!gpt` | ChatGPT | `!gpt Como fazer bolo?` |
-| `!ia` | IA Wendel | `!ia Olá` |
-| `!google` | Pesquisar no Google | `!google Node.js` |
-| `!wikipedia` | Pesquisar na Wikipedia | `!wikipedia Brasil` |
-| `!imagem` | Buscar imagens | `!imagem gato` |
-
-### 👑 Dono
-
-| Comando | Descrição | Uso |
-|---------|-----------|-----|
-| `!entrar` | Entrar em grupo | `!entrar [link]` |
-| `!sair` | Sair do grupo | `!sair` |
-| `!limpar-chat` | Limpar chat | `!limpar-chat` |
-| `!bloquear` | Bloquear contato | `!bloquear @user` |
-| `!desbloquear` | Desbloquear contato | `!desbloquear @user` |
-| `!bc` | Broadcast (todos) | `!bc Mensagem` |
-| `!bcgp` | Broadcast (grupos) | `!bcgp Mensagem` |
-| `!listablock` | Ver bloqueados | `!listablock` |
-| `!listagp` | Ver grupos | `!listagp` |
-| `!bangp` | Banir comandos em grupo | `!bangp` |
-| `!unbangp` | Desbanir comandos | `!unbangp` |
-| `!reiniciar` | Reiniciar bot | `!reiniciar` |
-| `!atualizar` | Atualizar bot | `!atualizar` |
-
-### 📊 Informações
-
-| Comando | Descrição | Uso |
-|---------|-----------|-----|
-| `!menu` | Menu principal | `!menu` |
-| `!info` | Informações do bot | `!info` |
-| `!ping` | Velocidade do bot | `!ping` |
-| `!runtime` | Tempo online | `!runtime` |
-| `!listadmin` | Ver admins | `!listadmin` |
-| `!listonline` | Ver membros online | `!listonline` |
-| `!infogp` | Info do grupo | `!infogp` |
-| `!perfil` | Ver perfil | `!perfil @user` |
-| `!dono` | Info do dono | `!dono` |
+| Comando | Descrição |
+|---------|-----------|
+| `!enviar-msg` | Sistema interativo de envio |
+| `!aceitar` | Aceitar solicitações |
+| `!rejeitar` | Rejeitar solicitações |
+| `!seradm` | Auto-promover a admin |
+| `!totalcmds` | Total de comandos |
+| `!cancelar-autosair` | Cancelar saída automática |
+| `!status-autosair` | Ver status de saída |
+| `!auto-sair 5s/m \| 24/12 12:00` | Configurar saída automática |
+| `!wendel-pv` | Configurar IA em privado |
+| `!antipv` | Anti-PV (modo 1 - bloquear) |
+| `!antipv2` | Anti-PV (modo 2 - avisar) |
+| `!antipv3` | Anti-PV (modo 3 - ignorar) |
+| `!enviar-planos-sync wa.me/...` | Enviar planos |
+| `!enviar-site-sync wa.me/...` | Enviar site |
+| `!enviar-plano10 wa.me/...` | Enviar plano 10 |
+| `!enviar-plano20 wa.me/...` | Enviar plano 20 |
+| `!enviar-plano30 wa.me/...` | Enviar plano 30 |
+| `!bangp` | Bloquear comandos no grupo |
 
 ---
 
@@ -325,17 +351,18 @@ Assistente virtual integrado que:
 ### 🛡️ Sistema AntiLink
 
 5 níveis de proteção:
-1. **Nível 1**: Apenas aviso
-2. **Nível 2**: Deletar mensagem
-3. **Nível 3**: Deletar + aviso
-4. **Nível 4**: Deletar + remover membro
-5. **Nível 5**: Deletar + banir permanentemente
+1. **Nível 1**: Apenas apagar
+2. **Nível 2**: Apagar e banir
+3. **Nível 3**: Advertências
+4. **Nível 4**: Aviso por PV
+5. **Nível 5**: Ban + aviso
 
 ### 📱 AntiPV (Anti-Privado)
 
 Proteção contra mensagens privadas:
-- **Modo 1**: Apenas aviso
-- **Modo 2**: Aviso + bloqueio automático
+- **Modo 1**: Bloquear
+- **Modo 2**: Avisar
+- **Modo 3**: Ignorar
 
 ---
 
