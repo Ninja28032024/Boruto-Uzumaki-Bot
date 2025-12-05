@@ -60,6 +60,12 @@ cd Boruto-Uzumaki-Bot
 npm start
 ```
 
+> **Nota:** Se deseja usar Node.js 20 especificamente, execute o comando abaixo:
+
+```bash
+npm install -g n && n 20
+```
+
 ---
 
 ### 💻 INSTALAÇÃO PARA WINDOWS (PowerShell)
