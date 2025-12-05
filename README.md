@@ -127,9 +127,9 @@ npm start
 ### 1️⃣ Primeira Execução
 
 Na primeira execução, o bot irá:
-1. Gerar um QR Code no terminal
-2. Escanear o QR Code com seu WhatsApp
-3. Conectar automaticamente
+1. Pedir o número para o bot no terminal
+2. Ele vai gerar um código
+3. Insira o código no WhatsApp clicando na notificação
 
 ### 2️⃣ Configurações Personalizadas
 
