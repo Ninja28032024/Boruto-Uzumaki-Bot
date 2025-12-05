@@ -14,6 +14,6 @@ do
 echo "${CYAN} 
  💧 ESTOU INICIANDO MESTRE AGUARDE... AUTO CONEXÃO ATIVADO 
  PARA ENVITAR OS ERROS DO BOT AGUARDE᭄......"
-node comandos.js 
+node boruto.js 
 sleep 1      
 done
