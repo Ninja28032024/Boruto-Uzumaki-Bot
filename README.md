@@ -66,6 +66,52 @@ npm start
 export N_PREFIX=$HOME/.n && npm install -g n && n 20
 ```
 
+Se mesmo assim não funcionar, faça o download do Nodejs20 [clicando aqui](https://www.mediafire.com/file/gb02m1zay11t6ff/node-v20.19.6-win-arm64.zip/file), e siga com os comandos abaixo em ordem.
+
+```bash
+cd ..
+```
+
+```bash
+cd Download
+```
+
+```bash
+tar -xf node-v20.19.6-linux-arm64.tar.xz
+```
+> **AVISO:** Aguarde na tela, pois a extração é silenciosa. Só execute o próximo comando após o símbolo de dólar `$` reaparecer.
+
+```bash
+mkdir -p $PREFIX/local
+mv node-v20.19.6-linux-arm64 $PREFIX/local/
+```
+
+```bash
+ln -sf $PREFIX/local/node-v20.19.6-linux-arm64/bin/node $PREFIX/bin/node
+ln -sf $PREFIX/local/node-v20.19.6-linux-arm64/bin/npm $PREFIX/bin/npm
+ln -sf $PREFIX/local/node-v20.19.6-linux-arm64/bin/npx $PREFIX/bin/npx
+```
+
+```bash
+pkg install proot-distro
+proot-distro install debian
+proot-distro login debian
+```
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
+apt install -y nodejs
+```
+
+```bash
+cd /sdcard/Boruto-Uzumaki-Bot
+```
+
+```bash
+npm start
+```
+```
+
 Se mesmo assim não funcionar, faça o download do Nodejs20 [clicando aqui](https://files.catbox.moe/7ks1el.zip), e siga com os comandos abaixo em ordem.
 
 ```bash
