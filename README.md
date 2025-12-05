@@ -128,6 +128,44 @@ npm start
 
 ---
 
+## 🚧 Solução de Problemas
+
+### Erro ao clonar no Termux: "RPC failed; curl 56 Recv failure"
+
+Este erro ocorre quando há problemas de conexão ao clonar o repositório. Tente as seguintes soluções:
+
+**Opção 1: Aumentar o timeout do git**
+
+```bash
+git config --global http.postBuffer 524288000
+```
+
+```bash
+git clone https://github.com/Ninja28032024/Boruto-Uzumaki-Bot.git
+```
+
+**Opção 2: Usar protocolo SSH (se tiver chave SSH configurada)**
+
+```bash
+git clone git@github.com:Ninja28032024/Boruto-Uzumaki-Bot.git
+```
+
+**Opção 3: Desabilitar a verificação SSL**
+
+```bash
+git config --global http.sslVerify false
+```
+
+```bash
+git clone https://github.com/Ninja28032024/Boruto-Uzumaki-Bot.git
+```
+
+**Opção 4: Tentar novamente com paciência**
+
+Algumas vezes é apenas um problema temporário de conexão. Aguarde alguns minutos e tente novamente.
+
+---
+
 ## ⚙️ Configuração
 
 ### 1️⃣ Primeira Execução
