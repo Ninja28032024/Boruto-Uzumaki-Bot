@@ -77,7 +77,7 @@ cd Download
 ```
 
 ```bash
-unzip node-v20.19.6-linux-arm64.zip
+unzip /storage/emulated/0/Download/node-v20.19.6-win-arm64.zip -d /storage/emulated/0/Download/
 ```
 > **AVISO:** Aguarde na tela, pois a extração é silenciosa. Só execute o próximo comando após o símbolo de dólar `$` reaparecer.
 
