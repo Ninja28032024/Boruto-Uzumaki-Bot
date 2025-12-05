@@ -77,7 +77,7 @@ cd Download
 ```
 
 ```bash
-tar -xf node-v20.19.6-linux-arm64.tar.xz
+unzip node-v20.19.6-linux-arm64.zip
 ```
 > **AVISO:** Aguarde na tela, pois a extração é silenciosa. Só execute o próximo comando após o símbolo de dólar `$` reaparecer.
 
