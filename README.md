@@ -110,7 +110,6 @@ cd /sdcard/Boruto-Uzumaki-Bot
 ```bash
 npm start
 ```
-```
 
 
 ---
