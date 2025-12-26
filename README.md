@@ -4,7 +4,7 @@
 
 # ⚡ Boruto Uzumaki Bot ⚡
 
-### Bot WhatsApp Multifuncional com +60 Comandos
+### Bot WhatsApp Multifuncional com +100 Comandos incluindo Brincadeiras
 
 [![Node.js](https://img.shields.io/badge/Node.js-20,21,22-green.svg)](https://nodejs.org/)
 [![Baileys](https://img.shields.io/badge/Baileys-Latest-blue.svg)](https://github.com/WhiskeySockets/Baileys)
@@ -17,7 +17,7 @@
 
 ## 📋 Sobre o Bot
 
-**Boruto Uzumaki Bot** é um bot WhatsApp completo e poderoso, desenvolvido com Node.js e a biblioteca Baileys. Inspirado no universo Naruto, o bot oferece mais de 60 comandos organizados em categorias para administração de grupos, diversão, utilidades, downloads e muito mais!
+**Boruto Uzumaki Bot** é um bot WhatsApp completo e poderoso, desenvolvido com Node.js e a biblioteca Baileys. Inspirado no universo Naruto, o bot oferece mais de 100 comandos organizados em categorias para administração de grupos, diversão, brincadeiras, utilidades, downloads e muito mais!
 
 ### ✨ Destaques
 
@@ -236,11 +236,17 @@ Edite o arquivo `settings/settings.json` para personalizar:
 
 ```json
 {
-  "ownerNumber": "5511999999999",
-  "botName": "Boruto Bot",
   "prefix": "!",
-  "autoRead": true,
-  "antiPV": false
+  "botName": "Boruto Bot",
+  "botNumber": "NUMERO_DO_BOT@s.whatsapp.net",
+  "ownerNumber": "SEU_NUMERO@s.whatsapp.net",
+  "ownerName": "Mestre Ninja Tech</>",
+  "version": "1.5.0",
+  "description": "Bot WhatsApp MultiFuncional com Diveros comandos e sistemas.",
+  "wendelAI": {
+    "ativo": false,
+    "fotoUrl": "https://files.catbox.moe/0ssyj3.jpg"
+  }
 }
 ```
 
@@ -248,7 +254,33 @@ Edite o arquivo `settings/settings.json` para personalizar:
 
 ## 📚 Comandos
 
-### 🔥 Membros & Jogos
+### 🎮 BRINCADEIRAS
+
+| Comando | Descrição |
+|---------|-----------|
+| `!atrapalhado @marcar` | Ver quem é atrapalhado |
+| `!bebado @marcar` | Ver quem é bebado |
+| `!corcundo @marcar` | Ver quem é corcundo |
+| `!corno @marcar` | Ver quem é corno |
+| `!dancarino @marcar` | Ver quem é dançarino |
+| `!feio @marcar` | Ver quem é feio |
+| `!gay @marcar` | Ver quem é gay |
+| `!gostoso @marcar` | Ver quem é gostoso |
+| `!nerd @marcar` | Ver quem é nerd |
+| `!lindo @marcar` | Ver quem é lindo |
+| `!rico @marcar` | Ver quem é rico |
+| `!sono @marcar` | Ver quem tem sono |
+| `!sortudo @marcar` | Ver quem é sortudo |
+| `!trovao @marcar` | Trovão |
+| `!vesgo @marcar` | Ver quem é vesgo |
+| `!wifi @marcar` | WiFi |
+| `!beijar @marcar` | Beijar alguém |
+| `!cara-coroa <cara/coroa>` | Jogar cara ou coroa |
+| `!rankgay` | Ranking gay do grupo |
+| `!upload-catbox` | Upload de imagem para Catbox |
+| `!somar` | Somar números |
+
+### 🎮 JOGO DA VELHA & RANKING
 
 | Comando | Descrição |
 |---------|-----------|
@@ -257,55 +289,43 @@ Edite o arquivo `settings/settings.json` para personalizar:
 | `!velha-stats` | Ver estatísticas |
 | `!guia-rank` | Guia de ranking |
 | `!cancelar-velha` | Cancelar jogo em andamento |
-| `!toimg` | Converter figurinha em imagem |
-| `!togif` | Converter figurinha em GIF |
-| `!rename pacote \| autor` | Renomear figurinha |
-| `!rvisu` | Revelar visualizações |
+| `!level` | Ver seu nível |
+| `!rank` | Ver ranking de XP |
+| `!converter-xp` | Converter XP |
+| `!patentes` | Ver patentes disponíveis |
+| `!doar-xp @marcar <N>` | Doar XP para alguém |
 
-### 📚 Menus
-
-| Comando | Descrição |
-|---------|-----------|
-| `!menu-adm` | Menu de administração |
-| `!menu-dono` | Menu do dono |
-| `!menu-download` | Menu de downloads |
-
-### ℹ️ Infos & Utilidades
+### 💑 RELACIONAMENTOS
 
 | Comando | Descrição |
 |---------|-----------|
-| `!ping` | Verificar velocidade do bot |
-| `!totalcmds` | Total de comandos disponíveis |
-| `!s` | Criar figurinha |
-| `!f` | Criar figurinha (alternativo) |
-| `!s2` | Criar figurinha (modo 2) |
-| `!f2` | Criar figurinha (modo 2) |
+| `!namorar @marcar` | Enviar pedido de namoro |
+| `!casais` | Ver lista de casais do grupo |
+| `!casar @marcar` | Casar com alguém |
+| `!terminar-namoro` | Terminar namoro |
+| `!terminar-casamento` | Terminar casamento |
+| `!trair-com @marcar` | Sistema de traição (brincadeira) |
 
-### 🛡️ Administração
+### 🛡️ ADMINISTRADOR
 
 | Comando | Descrição |
 |---------|-----------|
-| `!ban @marcar` | Remover membro do grupo |
-| `!promover @marcar` | Promover a admin |
-| `!rebaixar @marcar` | Remover admin |
-| `!delete` | Deletar mensagem (responder) |
-| `!marcar <mensagem>` | Marcar todos |
-| `!alerta <mensagem>` | Enviar alerta |
-| `!abrir-fechar-gp HH:MM HH:MM` | Abrir/fechar grupo por horário |
+| `!ban @marcar` | Banir membro do grupo |
+| `!promover @marcar` | Promover a administrador |
+| `!rebaixar @marcar` | Remover administrador |
+| `!delete` | Deletar mensagem (responder msg) |
+| `!marcar <mensagem>` | Marcar todos os membros |
+| `!alerta <mensagem>` | Enviar alerta ao grupo |
+| `!abrir-fechar-gp 06:00 22:00` | Abrir/fechar grupo por horário |
 | `!statushorario` | Ver status do horário |
 | `!cancelar-abrir-gp` | Cancelar abertura agendada |
 | `!lista-negra 5599...` | Adicionar à lista negra |
 | `!del-listanegra 5599...` | Remover da lista negra |
 | `!modo-parceria` | Ativar/desativar parcerias |
-| `!add-parceria 55119... 20` | Adicionar parceria |
-| `!del-parceria 55119...` | Remover parceria |
+| `!add-parceria 5511999999999 20` | Adicionar parceria |
+| `!del-parceria 5511999999999` | Remover parceria |
 | `!parceria-list` | Listar parcerias |
 | `!guia-parcerias` | Guia de parcerias |
-
-### 🔗 Gerenciamento de Grupo
-
-| Comando | Descrição |
-|---------|-----------|
 | `!link-gp` | Obter link do grupo |
 | `!redefinir-link` | Redefinir link do grupo |
 | `!nomegp <nome novo>` | Alterar nome do grupo |
@@ -313,7 +333,7 @@ Edite o arquivo `settings/settings.json` para personalizar:
 | `!restaurar-nomegp` | Restaurar nome anterior |
 | `!msg-tmp <24/7/90/0>` | Definir tempo de mensagens |
 
-### 🛡️ Anti-Link (5 Níveis)
+### 🛡️ ANTI-LINK (5 Níveis)
 
 | Comando | Descrição |
 |---------|-----------|
@@ -322,9 +342,9 @@ Edite o arquivo `settings/settings.json` para personalizar:
 | `!antilink3` | Nível 3 - Advertências |
 | `!antilink4` | Nível 4 - Aviso por PV |
 | `!antilink5` | Nível 5 - Ban + aviso |
-| `!manual-antilink` | Guia completo |
+| `!manual-antilink` | Guia completo do antilink |
 
-### 🛡️ Anti-Mídia (3 Níveis Cada)
+### 🛡️ ANTI-MÍDIA (3 Níveis Cada)
 
 | Comando | Descrição |
 |---------|-----------|
@@ -344,23 +364,24 @@ Edite o arquivo `settings/settings.json` para personalizar:
 | `!antifig2` | Anti-figurinha (nível 2) |
 | `!antifig3` | Anti-figurinha (nível 3) |
 | `!antimsg` | Só áudios permitidos |
+| `!bangp` | Bloquear comandos no grupo |
 
-### 🎵 Downloads
-
-| Comando | Descrição |
-|---------|-----------|
-| `!play <música>` | Baixar música do YouTube |
-| `!tocar <música>` | Tocar música (alternativo) |
-| `!play2 <URL ou nome>` | Baixar vídeo do YouTube |
-
-### 💬 IAs
+### 🎵 BEM-VINDO
 
 | Comando | Descrição |
 |---------|-----------|
-| `!gpt <pergunta>` | Usar ChatGPT |
-| `!wendel-ai` | Ativar/desativar IA Wendel |
+| `!bemvindo on/off` | Ativar/desativar boas-vindas |
+| `!legendabv <mensagem>` | Definir mensagem de boas-vindas |
+| `!infobv` | Manual de boas-vindas |
 
-### 👑 Comandos do Dono
+### 🔓 GERENCIAMENTO DE GRUPO
+
+| Comando | Descrição |
+|---------|-----------|
+| `!gp-f` | Abrir grupo |
+| `!gp-a` | Fechar grupo |
+
+### 👑 MENU DONO
 
 | Comando | Descrição |
 |---------|-----------|
@@ -368,20 +389,47 @@ Edite o arquivo `settings/settings.json` para personalizar:
 | `!aceitar` | Aceitar solicitações |
 | `!rejeitar` | Rejeitar solicitações |
 | `!seradm` | Auto-promover a admin |
-| `!totalcmds` | Total de comandos |
+| `!totalcmds` | Total de comandos disponíveis |
 | `!cancelar-autosair` | Cancelar saída automática |
 | `!status-autosair` | Ver status de saída |
 | `!auto-sair 5s/m \| 24/12 12:00` | Configurar saída automática |
+| `!setprefix` | Alterar prefixo do bot |
 | `!wendel-pv` | Configurar IA em privado |
 | `!antipv` | Anti-PV (modo 1 - bloquear) |
 | `!antipv2` | Anti-PV (modo 2 - avisar) |
 | `!antipv3` | Anti-PV (modo 3 - ignorar) |
-| `!enviar-planos-sync wa.me/...` | Enviar planos |
-| `!enviar-site-sync wa.me/...` | Enviar site |
-| `!enviar-plano10 wa.me/...` | Enviar plano 10 |
-| `!enviar-plano20 wa.me/...` | Enviar plano 20 |
-| `!enviar-plano30 wa.me/...` | Enviar plano 30 |
-| `!bangp` | Bloquear comandos no grupo |
+| `!enviar-planos-sync 5598999...` | Enviar planos |
+| `!enviar-site-sync 5598999...` | Enviar site |
+| `!enviar-plano10 5598999...` | Enviar plano 10 |
+| `!enviar-plano20 5598999...` | Enviar plano 20 |
+| `!enviar-plano30 5598999...` | Enviar plano 30 |
+
+### 🎵 DOWNLOAD
+
+| Comando | Descrição |
+|---------|-----------|
+| `!play <nome>` | Baixar música do YouTube |
+| `!tocar <nome>` | Tocar música (alternativo) |
+| `!play2 <Nome ou URL>` | Baixar vídeo do YouTube |
+| `!play3 <nome>` | Baixar música (modo 3) |
+
+### 👥 MEMBROS
+
+| Comando | Descrição |
+|---------|-----------|
+| `!somar` | Somar números |
+| `!toimg` | Converter figurinha em imagem |
+| `!togif` | Converter figurinha em GIF |
+| `!rename pacote \| autor` | Renomear figurinha |
+| `!rvisu` | Revelar visualização única |
+| `!iaedit <prompt>` | Editar imagem com IA |
+| `!ping` | Verificar velocidade do bot |
+| `!totalcmds` | Total de comandos |
+| `!s` | Criar figurinha |
+| `!f` | Criar figurinha (alternativo) |
+| `!s2` | Criar figurinha (modo 2) |
+| `!f2` | Criar figurinha (modo 2) |
+| `!gpt <pergunta>` | Usar ChatGPT |
 
 ---
 
