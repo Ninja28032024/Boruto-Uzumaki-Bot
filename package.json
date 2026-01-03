@@ -11,9 +11,11 @@
     "@whiskeysockets/baileys": "github:Itsukichann/Baileys",
     "axios": "^1.7.9",
     "chalk": "^4.1.2",
+    "javascript-obfuscator": "^5.1.0",
     "node-webpmux": "^3.2.1",
     "pino": "^9.7.0",
     "qrcode": "^1.5.4",
+    "sharp": "^0.34.5",
     "wa-sticker-formatter": "^4.4.4"
   },
   "author": "Mestre Ninja Devs Of Bots",
