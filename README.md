@@ -1,7 +1,5 @@
 <div align="center">
 
-![Banner](banner.png)
-
 # ⚡ Boruto Uzumaki Bot ⚡
 
 ### Bot WhatsApp Multifuncional com +100 Comandos incluindo Brincadeiras
