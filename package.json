@@ -1,7 +1,7 @@
 {
   "name": "Boruto Bot",
-  "version": "1.5.0",
-  "description": "Bot WhatsApp MultiFuncional Com diversos comandos e sistemas. Compatível com Node.js 18+ e Termux.",
+  "version": "2",
+  "description": "Bot WhatsApp MultiFuncional Com diversos comandos e sistemas. Compatível com Node.js20+ e Termux.",
   "main": "boruto.js",
   "scripts": {
     "start": "node boruto.js",
@@ -11,7 +11,6 @@
     "@whiskeysockets/baileys": "github:Itsukichann/Baileys",
     "axios": "^1.7.9",
     "chalk": "^4.1.2",
-    "javascript-obfuscator": "^5.1.0",
     "node-webpmux": "^3.2.1",
     "pino": "^9.7.0",
     "qrcode": "^1.5.4",
