@@ -1,7 +1,8 @@
 {
   "name": "Boruto Bot",
-  "version": "2",
-  "description": "Bot WhatsApp MultiFuncional Com diversos comandos e sistemas. Compatível com Node.js 14+ e Termux.",
+  "version": "2.2",
+  "status": "Atualização [08/02/2026] [14:48] para V2.2",
+  "description": "Bot WhatsApp MultiFuncional Com diversos comandos e sistemas. Compatível com Node.js 14+ e Termux. [Atualização 08/02/2026 14:48 V2.2]",
   "main": "boruto.js",
   "engines": {
     "node": ">=14.0.0",
