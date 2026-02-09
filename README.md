@@ -5,6 +5,7 @@
 ### Bot de WhatsApp Multifuncional com +150 comandos incluindo Brincadeiras
 
 [![Node.js](https://files.catbox.moe/iz2w5w.jpeg)](https://nodejs.org/)
+[![Node.js Version](https://img.shields.io/badge/Node.js-14%2C%2018%2C%2019%2C%2020%2C%2021%2C%2022%2C%2023%2C%2024%2B-green.svg)](https://nodejs.org/)
 [![Baileys](https://img.shields.io/badge/Baileys-Latest-blue.svg)](https://github.com/WhiskeySockets/Baileys)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Desenvolvido por](https://img.shields.io/badge/Desenvolvido%20por-Ninja%20Devs-orange.svg)](https://github.com/NinjaDevs)
