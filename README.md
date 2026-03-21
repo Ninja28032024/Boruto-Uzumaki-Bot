@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ Boruto Uzumaki Bot V2.3 ⚡
+# ⚡ Boruto Uzumaki Bot V2.4 ⚡
 
 ### Bot de WhatsApp Multifuncional com +150 comandos incluindo Brincadeiras
 
@@ -16,7 +16,7 @@
 
 ## 📋 Sobre o Bot
 
-**Boruto Uzumaki Bot V2.3** é um bot WhatsApp completo e poderoso, desenvolvido com Node.js e a biblioteca Baileys. Inspirado no universo Naruto, o bot oferece mais de 100 comandos organizados em categorias para administração de grupos, diversão, brincadeiras, utilidades, downloads e muito mais!
+**Boruto Uzumaki Bot V2.4** é um bot WhatsApp completo e poderoso, desenvolvido com Node.js e a biblioteca Baileys. Inspirado no universo Naruto, o bot oferece mais de 100 comandos organizados em categorias para administração de grupos, diversão, brincadeiras, utilidades, downloads e muito mais!
 
 ### ✨ Destaques
 
@@ -495,6 +495,6 @@ Este bot é apenas para fins educacionais. O uso inadequado do bot é de respons
 
 ### ⚡ Esse é o poder da nova geração! 🔥
 
-**Boruto Uzumaki Bot V2.3** © 2024 - Ninja Devs
+**Boruto Uzumaki Bot V2.4** © 2024 - Ninja Devs
 
 </div>
