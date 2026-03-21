@@ -1,12 +1,11 @@
 {
   "prefix": "!",
   "botName": "Boruto Bot",
-  "botNumber": "559294768915@s.whatsapp.net",
-  "ownerNumber": "554284421154@s.whatsapp.net",
+  "botNumber": "5511999...@s.whatsapp.net",
+  "ownerNumber": "5511999...",
   "ownerName": "Mestre Ninja Tech</>",
-  "version": "2.3",
-  "status": "Atualização [08/02/2026] [17:28] para V2.3",
-  "description": "Bot WhatsApp MultiFuncional com Diveros comandos e sistemas. [Atualização 08/02/2026 17:28 V2.3]",
+  "version": "2.4",
+  "description": "Bot WhatsApp MultiFuncional com Diveros comandos e sistemas.",
   "wendelAI": {
     "ativo": false,
     "fotoUrl": "https://files.catbox.moe/0ssyj3.jpg"
